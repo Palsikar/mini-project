@@ -1,0 +1,84 @@
+.imap {
+  width: 33%;
+  margin: auto;
+  padding-top: 70px;
+}
+.imap path {
+  fill:rgb(139, 223, 116);
+  stroke:whitesmoke;
+  stroke-width: 1px;
+  transition: fill 0.3s;
+}
+.imap path:hover{
+  fill: rgb(6, 54, 4);
+  transition: fill 0.3s;}
+
+.abc{
+  margin-left: 40%;
+}
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  align-items: center;
+  background-color:rgb(79, 155, 187);
+  box-shadow: rgba(247, 245, 245, 0.936) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+.iop{
+  margin-left: 1500px;
+}
+.ghj{
+  font-size:50px;
+  word-spacing:30px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #b9b483;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 600px;
+    width: 50%;
+    max-width: 300px;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-bar button:hover {
+    background-color: #444;
+}
